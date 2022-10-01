@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title> FORM PENDAFATARAN MAHASISWA BARU 2022</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+        <div class="h2form"></div>
+        <div class="tableform"></div>
+    
+    <h2 class="h2form">Formulir Pendaftaran Mahasiswa Baru 2022/2023</h2>
+    <form method="POST" action="proses1.php">
+        <table class="tableform" align="center">
+    <th><b>DATA MAHASISWA</b></th>
+     <tr>
+        <td>Nama Lengkap</td>
+        <td>:</td>
+        <td><input type="text" name="nama" placeholder="Input nama lengkap" required></td>
+    </tr>
+    <tr>
+        <td>NISN</td>
+        <td>:</td>
+        <td><input type="number" name="nisn" placeholder="Input NISN"></td>
+    </tr>
+    <tr>
+        <td>Tempat Lahir</td>
+        <td>:</td>
+        <td><input type="text" name="tlahir" placeholder="Input tempat lahir"></td>
+    </tr>
+    
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td>:</td>
+        <td><input type="Date" name="date"></td>
+    </tr>
+    
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td><input type="radio" name='jk' value='pria' required/>Pria
+        <input type="radio" name='jk' value='perempuan' required/>Perempuan</td>
+    </tr>
+    
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><textarea cols="22" rows="3" name="alsaya" placeholder="Input alamat anda"></textarea></td>
+    </tr>
+    
+    <tr>
+        <td>E-mail</td>
+        <td>:</td>
+        <td><input type="email" name="email" placeholder="Input e-mail"></td>
+    </tr>
+    
+    <tr>
+        <td>No Hp</td>
+        <td>:</td>
+        <td><input type="number" name="nohp" placeholder="Input no.hp"></td>
+    </tr>
+    
+    <tr>
+    <td>Kota</td>
+    <td>:</td>
+    <td>
+    <select name="kota" required>
+    <option>*****SELECT KOTA*****</option>
+    <option>Kendal</option>
+    <option>Semarang</option>
+    <option>Bekasi</option>
+    <option>Tangerang</option>
+    <option>Depok</option>
+    <option>cikarang</option>
+    <option>Banten</option>
+    </select></td>
+    </tr>
+    
+    <th><b>DATA ORANG TUA</b></th>
+            <tr>
+                <td>Nomor kartu keluarga</td>
+                <td>:</td>
+                <td><input type="number" name="nkk" placeholder="Input nomor KK"></td>
+            </tr>
+            <tr>
+                <td>Nama Ayah Kandung</td>
+                <td>:</td>
+                <td><input type="text" name="namaayah" placeholder="Input nama ayah kandung"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><input type="text" name="agamaayah" placeholder="Input agama ayah"></td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>:</td>
+                <td><input type="text" name="pekerjaanayah" placeholder="Input pekerjaan ayah"></td>
+            </tr>
+            <tr>
+                <td>Nama Ibu Kandung</td>
+                <td>:</td>
+                <td><input type="text" name="namaibu" placeholder="Input nama ibu kandung"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><input type="text" name="agamaibu" placeholder="Input agama ibu"></td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>:</td>
+                <td><input type="text" name="pekerjaanibu" placeholder="Input pekerjaan ibu"></td>
+            </tr>
+                <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea cols="22" rows="3" name="alortu" placeholder="Input alamat orang  tua"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Simpan"/>
+                <input type="reset" name="reset" value="Batal" /></td>
+            </tr>
+    </table>
+</form>
+</body>
+</html>
